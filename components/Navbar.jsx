@@ -19,7 +19,7 @@ const Navbar = () => {
                 <Link className="navbar-brand" href="#">Navbar</Link>
                 <div className="order-lg-2"> 
                     <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
-                        <LinkiOutlineShopping />
+                         <AiOutlineShopping />
                         <span className="cart-item-qty">{totalQuantities}</span>
                     </button>
                 </div>
